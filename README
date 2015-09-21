@@ -1,0 +1,3 @@
+### Running Flower
+
+`docker run --rm -p 5555:5555 -e "CELERY_CONFIG_MODULE=config" immunda/flower` 
